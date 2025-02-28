@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 100dvh;
+        }
+        .calculadora{
+            display: flex;
+            margin: auto auto;
+            align-content: center;
+            align-items: center;
+            flex-flow: column  nowrap;
+            width: 90%;
+            height: 90%;
+            background-color: darkgray;
+        }
+        .buttons_number{
+            display: grid;
+        }
+    </style>
+    <main class="calculadora">
+        <section>
+            <section></section>
+            <section>pre value</section>
+            <button>total</button>
+        </section>
+        <section class="buttons_number">
+            <button class="button_number" id="button_number-1" data-value="1" onclick="">1</button>
+            <button class="button_number" id="button_number-2" data-value="2" onclick="">2</button>
+            <button class="button_number" id="button_number-3" data-value="3" onclick="">3</button>
+            <button class="button_number" id="button_number-4" data-value="4" onclick="">4</button>
+            <button class="button_number" id="button_number-5" data-value="5" onclick="">5</button>
+            <button class="button_number" id="button_number-6" data-value="6" onclick="">6</button>
+            <button class="button_number" id="button_number-7" data-value="7" onclick="">7</button>
+            <button class="button_number" id="button_number-8" data-value="8" onclick="">8</button>
+            <button class="button_number" id="button_number-9" data-value="9" onclick="">9</button>
+            <button class="button_number" id="button_number-0" data-value="0" onclick="">0</button>
+        </section>
+        <section>
+            <button>+</button>
+            <button>-</button>
+            <button>*</button>
+            <button>/</button>
+        </section>
+    </main>
+</body>
+</html>

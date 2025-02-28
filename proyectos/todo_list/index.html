@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="indext.css">
+</head>
+<body>
+ 
+    <main>
+        <section class="app">
+            <H1>TODOLIST</H1>
+            <button  id="button_add_modal" class="button_add" onclick="Handler.agregar_modal()">agregar</button>
+            <ul id="ListaItems"><li class="spinner"><span class="loader"></span></li></ul>
+                <section id="modal-agregar" class="none modals">
+                    <section class="modals_backdrop"></section>
+                    <div>
+                    <h2>add modal</h2>
+                    <form action="" id="formulario_modal_add">
+                        <input name="nombre"    id="nombre"     placeholder="nombre"     type="text">
+                        <input name="cantidad"  id="cantidad"   placeholder="cantidad"   type="text">
+                        <input name="nota"      id="nota"       placeholder="nota"       type="text">
+                        <input name="precio"    id="precio"     placeholder="precio"     type="text">
+                    </form>
+                    <button  onclick="Handler.agregar_modal_agregar()" class="green">agregar</button>
+                    <button id="modal-agregar_cerrar" onclick="Handler.agregar_modal_cerrar()" class="red">cancelar</button>
+                    </div>
+                </section>
+    
+                <section id="modal-editar" class="none modals">
+                    <section class="modals_backdrop"></section>
+                    
+                    <div>
+                        <h2>edit modal</h2>
+                        <form action="" id="formulario_modal_editar">
+                            <input name="nombre"    id="nombre"     placeholder="nombre"     type="text">
+                            <input name="cantidad"  id="cantidad"   placeholder="cantidad"   type="text">
+                            <input name="nota"      id="nota"       placeholder="nota"       type="text">
+                            <input name="precio"    id="precio"     placeholder="precio"     type="text">
+                        </form>
+                        <button class="green" onclick="Handler.editar_guardar()">editar</button>
+                        <button class="red" id="modal-editar_cerrar" onclick="Handler.editar_cancelar()">cancelar</button>
+                    </div>
+               
+                </section>
+        
+        </section>
+    </main>
+
+    
+    <script src="./index.js"></script>
+</body>
+</html> 
