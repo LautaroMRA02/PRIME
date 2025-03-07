@@ -16,24 +16,68 @@
             height: 100dvh;
         }
         .calculadora{
-            display: flex;
-            margin: auto auto;
-            align-content: center;
-            align-items: center;
-            flex-flow: column  nowrap;
+            display: grid;
+            grid-template-areas: 
+            "a a "
+            "b c "
+            ;
+            justify-content: center;
             width: 90%;
             height: 90%;
             background-color: darkgray;
         }
+        .tablon{
+            grid-area: a;
+            font-size: 2.5rem;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-end;
+            justify-content: flex-end
+
+
+
+
+
+
+
+        }
         .buttons_number{
             display: grid;
+            grid-area: b;
+        
+        }
+        .buttons_number{
+
+            display: grid;
+            width: 50%;
+            grid-template-areas: "a a a";
+            grid-auto-rows: 48px;
+            grid-auto-columns: 48px;
+        }
+        #button_number-0{
+            grid-column: 2;
+            grid-row: 4;
+        }
+        .expres{
+            grid-area: c;
+            display: flex;
+            flex-flow: column nowrap;
+        }
+        .expre{
+            width: 48px;
+            height: 48px;
+        }
+        #total{
+            width: calc(48px * 4);
+            height: 48px;
         }
     </style>
     <main class="calculadora">
-        <section>
-            <section></section>
-            <section>pre value</section>
-            <button>total</button>
+        <section class="tablon">
+            <section id="pre_value"></section>
+            <section id="tabla"></section>
+
+            <button id="total">total</button>
         </section>
         <section class="buttons_number">
             <button class="button_number" id="button_number-1" data-value="1" onclick="">1</button>
@@ -47,12 +91,13 @@
             <button class="button_number" id="button_number-9" data-value="9" onclick="">9</button>
             <button class="button_number" id="button_number-0" data-value="0" onclick="">0</button>
         </section>
-        <section>
-            <button>+</button>
-            <button>-</button>
-            <button>*</button>
-            <button>/</button>
+        <section class="expres">
+            <button class="button_number expre" data-value="+">+</button>
+            <button class="button_number expre" data-value="-">-</button>
+            <button class="button_number expre" data-value="*">*</button>
+            <button class="button_number expre" data-value="/">/</button>
         </section>
+        <script src="./calculadora.js"></script>
     </main>
 </body>
 </html>
