@@ -70,17 +70,28 @@ Objetivo inmediato: Completar proyectos básicos para fortalecer fundamentos
 - Próximo paso: Comenzar desarrollo de Dashboard
 
 ## Proyecto Actual: Dashboard Simple en React
-Estado: Por comenzar
+Estado: Completado ✅
 Tecnologías: React, CSS, React Router
-Funcionalidades planificadas:
-- [ ] Múltiples rutas/páginas
-- [ ] Navegación con React Router
-- [ ] Layout compartido
-- [ ] Visualización de datos mock
-- [ ] Gráficos simples (opcional)
-- [ ] Responsive design
+Funcionalidades implementadas:
+- [X] Múltiples rutas/páginas
+- [X] Navegación con React Router
+- [X] Layout compartido
+- [X] Visualización de datos mock
+- [X] Gráficos simples
+- [X] Responsive design
 
 ## Proyectos Completados
+### Dashboard Simple en React ✅
+Estado: Completado
+Tecnologías: React, CSS, React Router
+Funcionalidades implementadas:
+- [X] Múltiples rutas/páginas
+- [X] Navegación con React Router
+- [X] Layout compartido
+- [X] Visualización de datos mock
+- [X] Gráficos simples
+- [X] Responsive design
+
 ### Calculadora ✅
 Estado: Completado
 Tecnologías: HTML, CSS, JavaScript
@@ -100,6 +111,26 @@ Funcionalidades implementadas:
 - [X] Estilos CSS modulares
 - [X] Persistencia de datos (localStorage)
 
+## Proyecto Actual: E-commerce Básico en React
+Estado: En desarrollo 🚧
+Tecnologías: React, CSS, React Router, Context API
+Funcionalidades planificadas:
+- [ ] Catálogo de productos
+- [ ] Carrito de compras
+- [ ] Filtrado y búsqueda de productos
+- [ ] Detalles del producto
+- [ ] Gestión del estado con Context API
+- [ ] Diseño responsive
+- [ ] Persistencia del carrito (localStorage)
+
+[28/03/2024]
+- Tema tratado: Inicio del proyecto E-commerce básico
+- Decisiones:
+  * Comenzar con la estructura básica del proyecto
+  * Implementar catálogo y carrito como primeras funcionalidades
+  * Utilizar Context API para gestión del estado
+- Próximo paso: Crear estructura del proyecto y componentes base
+
 ## Recursos y Referencias 
 - React Documentation: https://react.dev/
 - Create React App: https://create-react-app.dev/
@@ -107,3 +138,11 @@ Funcionalidades implementadas:
 
 ---
 Última actualización: 26/03/2024
+
+[27/03/2024]
+- Tema tratado: Finalización de Dashboard Simple en React y planificación siguiente proyecto
+- Decisiones:
+  * Dashboard Simple completado con todas las funcionalidades planificadas
+  * Aprendizaje logrado: React Router, layouts, componentes reutilizables, integración de gráficos
+  * Siguiente proyecto: E-commerce básico con React
+- Próximo paso: Comenzar desarrollo de E-commerce básico

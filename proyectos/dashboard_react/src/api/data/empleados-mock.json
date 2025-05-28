@@ -1,0 +1,174 @@
+{
+    "empleados": [
+      {
+        "id": "EMP001",
+        "nombre": "María González",
+        "dni": "25789456",
+        "fecha_ingreso": "2023-01-15",
+        "cargo": "Vendedor Senior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-1234",
+          "email": "maria.gonzalez@zapateria.com",
+          "direccion": "Av. Principal 123"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 3.5,
+        "meta_mensual": 50000.00,
+        "evaluacion_desempeño": 4.8
+      },
+      {
+        "id": "EMP002",
+        "nombre": "Juan Pérez",
+        "dni": "30456789",
+        "fecha_ingreso": "2023-03-20",
+        "cargo": "Vendedor Junior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-2345",
+          "email": "juan.perez@zapateria.com",
+          "direccion": "Calle 45 #789"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 2.5,
+        "meta_mensual": 40000.00,
+        "evaluacion_desempeño": 4.2
+      },
+      {
+        "id": "EMP003",
+        "nombre": "Ana Martínez",
+        "dni": "28567123",
+        "fecha_ingreso": "2022-11-05",
+        "cargo": "Vendedor Senior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-3456",
+          "email": "ana.martinez@zapateria.com",
+          "direccion": "Calle Sur 567"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 3.5,
+        "meta_mensual": 50000.00,
+        "evaluacion_desempeño": 4.9
+      },
+      {
+        "id": "EMP004",
+        "nombre": "Carlos Rodríguez",
+        "dni": "31789234",
+        "fecha_ingreso": "2023-06-10",
+        "cargo": "Vendedor Junior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-4567",
+          "email": "carlos.rodriguez@zapateria.com",
+          "direccion": "Av. Norte 890"
+        },
+        "horario": "Part-time",
+        "comision_porcentaje": 2.5,
+        "meta_mensual": 30000.00,
+        "evaluacion_desempeño": 4.0
+      },
+      {
+        "id": "EMP005",
+        "nombre": "Laura Sánchez",
+        "dni": "29345678",
+        "fecha_ingreso": "2023-02-01",
+        "cargo": "Vendedor Senior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-5678",
+          "email": "laura.sanchez@zapateria.com",
+          "direccion": "Calle Este 234"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 3.5,
+        "meta_mensual": 50000.00,
+        "evaluacion_desempeño": 4.7
+      },
+      {
+        "id": "EMP006",
+        "nombre": "Diego López",
+        "dni": "32567890",
+        "fecha_ingreso": "2023-08-15",
+        "cargo": "Vendedor Junior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-6789",
+          "email": "diego.lopez@zapateria.com",
+          "direccion": "Av. Oeste 567"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 2.5,
+        "meta_mensual": 40000.00,
+        "evaluacion_desempeño": 4.3
+      },
+      {
+        "id": "EMP007",
+        "nombre": "Patricia Flores",
+        "dni": "27890123",
+        "fecha_ingreso": "2022-12-20",
+        "cargo": "Vendedor Senior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-7890",
+          "email": "patricia.flores@zapateria.com",
+          "direccion": "Calle Central 789"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 3.5,
+        "meta_mensual": 50000.00,
+        "evaluacion_desempeño": 4.8
+      },
+      {
+        "id": "EMP008",
+        "nombre": "Roberto Díaz",
+        "dni": "33234567",
+        "fecha_ingreso": "2023-09-01",
+        "cargo": "Vendedor Junior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-8901",
+          "email": "roberto.diaz@zapateria.com",
+          "direccion": "Av. Plaza 123"
+        },
+        "horario": "Part-time",
+        "comision_porcentaje": 2.5,
+        "meta_mensual": 30000.00,
+        "evaluacion_desempeño": 4.1
+      },
+      {
+        "id": "EMP009",
+        "nombre": "Sofía Ramírez",
+        "dni": "26789012",
+        "fecha_ingreso": "2023-04-15",
+        "cargo": "Vendedor Senior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-9012",
+          "email": "sofia.ramirez@zapateria.com",
+          "direccion": "Calle Nueva 456"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 3.5,
+        "meta_mensual": 50000.00,
+        "evaluacion_desempeño": 4.6
+      },
+      {
+        "id": "EMP010",
+        "nombre": "Miguel Torres",
+        "dni": "34567890",
+        "fecha_ingreso": "2023-07-01",
+        "cargo": "Vendedor Junior",
+        "estado": "activo",
+        "contacto": {
+          "telefono": "555-0123",
+          "email": "miguel.torres@zapateria.com",
+          "direccion": "Av. Principal 890"
+        },
+        "horario": "Full-time",
+        "comision_porcentaje": 2.5,
+        "meta_mensual": 40000.00,
+        "evaluacion_desempeño": 4.4
+      }
+    ]
+  }
